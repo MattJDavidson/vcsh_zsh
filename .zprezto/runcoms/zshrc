@@ -23,6 +23,7 @@ export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
 source ~/.pyenv/completions/pyenv.zsh
+export PYTHONSTARTUP=~/.startup.py
 
 alias mm="mux start default matt"
 
